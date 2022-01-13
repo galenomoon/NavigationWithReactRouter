@@ -1,3 +1,31 @@
-.Menu{
-    
+.Menu {
+  display: flex;
+  flex-basis: 250px;
+  background-color: dodgerblue;
+}
+.Menu nav{
+    flex:1;
+}
+.Menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Menu li  {
+  display: flex;
+}
+.Menu li a {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition:0.25s;
+}
+.Menu li a:hover {
+   transition:0.25s;
+   background:rgba(0, 0, 0, 0.577);
+   transform: translateX(10px);
+   
 }

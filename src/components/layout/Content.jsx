@@ -1,9 +1,9 @@
 import React from "react";
-import './components/layout/Content.css'
+import "./Content.css";
 
- const Content = props=>(
-     <main className="Content">
-         Content Component
-     </main>
- )
- export default Content
+const Content = (props) => (
+  <main className="Content">
+    <h1>Content Component</h1>
+  </main>
+);
+export default Content;
